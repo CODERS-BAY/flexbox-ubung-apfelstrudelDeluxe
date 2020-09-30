@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* h1,  */
+
+/* ------------header------------- */
+
+.logo img {
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.siteName {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+header {
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+}
+
+nav {
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+    padding: 1rem;
+    /* Rechtsbündig mit Flexbox? */
+}
+
+
+.headerImage {
+    background-image: url(images/headerimage.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerText {
+    color: orange;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px #1C1C1C;
+}
+
+
+/* ------------main------------- */
+
+main {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+article {
+    background-color: rgba(255, 165, 0, 0.3);
+    padding: 1rem;
+    margin: 1rem;
+    flex-basis: calc(100%/3);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+button {
+    align-self: center;
+    margin-top: auto;
+    background: orange;
+    color: black;
+    padding: 0.5rem;
+    border: none;
+    text-transform: uppercase;
+}
+
+
+
+/* ------------footer------------- */
+
+footer {
+    background-color: rgb(187, 225, 248);
+    
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}

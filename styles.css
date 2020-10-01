@@ -17,6 +17,7 @@ a {
 
 /* ------------header------------- */
 
+
 .logo img {
     width: 50px;
     margin-right: 1rem;
@@ -32,11 +33,9 @@ header {
     display: flex;
     padding: 2rem;
     align-items: center;
+    justify-content: space-between;
 }
 
-nav {
-    justify-content: flex-end;
-}
 
 ul {
     display: flex;
@@ -46,7 +45,6 @@ ul {
 li {
     list-style: none;
     padding: 1rem;
-    /* Rechtsbündig mit Flexbox? */
 }
 
 
@@ -106,12 +104,11 @@ button {
 
 /* ------------footer------------- */
 
-footer {
-    background-color: rgb(187, 225, 248);
-    
-}
-
 footer ul {
+    
+    background-color: rgb(187, 225, 248);
+    justify-content: flex-end;
     padding: 0;
     margin: 0;
 }
+
